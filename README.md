@@ -11,6 +11,11 @@ A real-time audio transcription application powered by OpenAI's Whisper model, f
 - **System Information**: Displays detailed hardware specs (CPU, GPU, RAM)
 - **Modern UI**: Built with React, TypeScript, and Tailwind CSS
 
+## 💻 Preview
+
+![Initial Screen](docs/img//initial_screenshot.jpeg)
+![Final Transcription](docs/img//final_screenshot.jpeg)
+
 ## 📋 Prerequisites
 
 - **Python**: 3.9 or higher
@@ -22,8 +27,8 @@ A real-time audio transcription application powered by OpenAI's Whisper model, f
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd whisper-test
+git clone https://github.com/Arkapravo-Ghosh/transcribe
+cd transcribe
 ```
 
 ### 2. Backend Setup (Python/FastAPI)
@@ -83,7 +88,7 @@ The backend will be accessible at: **http://localhost:8000**
 **Expected Output:**
 
 ```
-INFO:     Will watch for changes in these directories: ['/path/to/whisper-test']
+INFO:     Will watch for changes in these directories: ['/path/to/transcribe']
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process using StatReload
 Using device: mps
@@ -242,7 +247,7 @@ Feel free to submit issues and pull requests!
 
 ## 📄 License
 
-[Your License Here]
+Arkapravo-Ghosh/transcribe is licensed under the [GNU Affero General Public License v3.0](LICENSE).
 
 ## 🙏 Acknowledgments
 
